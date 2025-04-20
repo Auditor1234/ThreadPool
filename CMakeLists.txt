@@ -14,3 +14,4 @@ set(SOURCE_FILES
     )
 
 add_executable(ThreadPool ${SOURCE_FILES})
+add_subdirectory(ThreadPool)

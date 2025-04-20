@@ -2,6 +2,7 @@
 #include <functional>
 #include <list>
 #include <pthread.h>
+#include <vector>
 
 #include "condition.h"
 #include "mutex_lock.h"
