@@ -3,7 +3,6 @@
 #include <unistd.h>
 
 #include "ThreadPool.h"
-#include "ThreadPool2.h"
 
 
 void call(std::shared_ptr<void> arg) {
@@ -17,7 +16,7 @@ void call(std::shared_ptr<void> arg) {
  * 用三个打印任务测试线程池
 */
 int main() {
-    ThreadPool2 threadPool(4, 8);
+    ThreadPool threadPool(4, 8);
     char name1[] = "thread 1";
     char name2[] = "thread 2";
     char name3[] = "thread 3";
